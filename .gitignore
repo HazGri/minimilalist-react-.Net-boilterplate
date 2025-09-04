@@ -1,0 +1,44 @@
+# ====================
+# Backend .NET
+# ====================
+bin/
+obj/
+*.user
+*.suo
+*.vs
+*.vscode
+*.db
+*.log
+*.pdb
+appsettings.*.json   # si tu veux ignorer les fichiers de config avec secrets
+*.cache
+*.DS_Store
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ====================
+# Frontend React
+# ====================
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# Env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# MacOS
+.DS_Store
